@@ -63,7 +63,7 @@ class Tutorial (object):
     self.connection.send(msg)
 
 
-  def act_like_hub (self, packet, packet_in):
+  def act_like_switch (self, packet, packet_in):
     """
     Implement hub-like behavior -- send all packets to all ports besides
     the input port.
